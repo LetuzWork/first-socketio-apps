@@ -1,0 +1,51 @@
+.blob{
+    background: #333;
+    border-radius: 30px;
+    width: 50px; height: 50px;
+    position: absolute;
+    transition: all 100ms;
+}
+
+.blob::before{
+    content: " ";
+    background: #fff;
+    border-radius: 30px;
+    width: 10px; height: 10px;
+    position: absolute;
+    left: 10px; top: 10px;
+}
+.blob::after{
+    content: " ";
+    background: #fff;
+    border-radius: 30px;
+    width: 10px; height: 10px;
+    position: absolute;
+    right: 10px; top: 10px;
+}
+
+.visor{
+    position: fixed;
+    left: 10px; top: 0;
+    width: 60px;
+    height: 20px;
+    color: white;
+    text-shadow: 0 0 4px #111;
+    box-shadow: 1px 2px 5px #1113;
+    text-align: center;
+}
+
+.target{
+    /* background: tomato; */
+    position: absolute;
+    border-radius: 5px;
+    /* background-image: url("https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png"); */
+    width: 20px; height: 20px;
+    top: -20px; left: 15px;
+}
+
+.bullet{
+    background: #333;
+    border-radius: 50px;
+    width: 5px; height: 5px;
+    position: absolute;
+}

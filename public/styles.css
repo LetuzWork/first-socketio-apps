@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+body{
+    font-family: 'Major Mono Display', monospace;
+    color:coral;
+    background: #eee;
+}
+h1{text-align: center;}
+#main-cont{
+    max-width: 800px;
+    max-width: 400px;
+    margin: 25px auto;
+    height: 100%;
+
+    box-shadow: 1px 3px 5px #3335;
+    background: #3333;
+}
+
+#chat-body{
+    padding: 6px 3px;
+    margin: 0 20px;
+    text-align: center;
+}
+
+#msgs {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    color: #777;
+    padding: 6px 3px;
+    margin: 0 10px; 
+}
+
+input{
+    padding: 6px 3px;
+    margin: 5px 0; 
+    box-sizing: border-box;
+    border: none;
+    background: #eee;
+    /* box-shadow: 1px 2px 5px #eee; */
+    display: block;
+    width: 100%;
+}
+#terminal{
+    padding: 6px 3px;
+    background: #f98;
+    color: #222;
+    transition: 300ms;
+}
+
+button{
+    margin-left: 25%;
+    margin-bottom: 5px;
+    width: 50%;
+    padding: 5px 0;
+    border: none;
+    background: coral;
+    font-size: 16px;
+    color: #eee;
+}
